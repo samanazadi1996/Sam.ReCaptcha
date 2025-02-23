@@ -1,5 +1,8 @@
 # Sam.ReCaptcha - A Powerful CAPTCHA Solution for ASP.NET Core
 
+[![Badge CI](https://github.com/samanazadi1996/Sam.ReCaptcha/workflows/.NET/badge.svg)](https://github.com/samanazadi1996/Sam.ReCaptcha/actions)
+[![Badge NuGet](https://img.shields.io/nuget/vpre/Sam.ReCaptcha.svg)](https://www.nuget.org/packages/Sam.ReCaptcha)
+
 `Sam.ReCaptcha` is a robust package for implementing CAPTCHA in ASP.NET Core applications. It supports various CAPTCHA techniques, including text-based and math-based CAPTCHAs, helping to prevent automated attacks and enhance application security.
 
 ---

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sam.ReCaptcha", "Source\Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sam.ReCaptcha.WebApi", "Source\Sam.ReCaptcha.WebApi\Sam.ReCaptcha.WebApi.csproj", "{85DE1C81-F257-4A36-9821-E135EDDD1DA6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4BCA3777-AA07-4240-A556-19799DECCE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sam.ReCaptcha.FunctionalTests", "Tests\Sam.ReCaptcha.FunctionalTests\Sam.ReCaptcha.FunctionalTests.csproj", "{97B1366A-663E-42B2-98E6-FF0D4DC87814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{85DE1C81-F257-4A36-9821-E135EDDD1DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85DE1C81-F257-4A36-9821-E135EDDD1DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85DE1C81-F257-4A36-9821-E135EDDD1DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B1366A-663E-42B2-98E6-FF0D4DC87814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B1366A-663E-42B2-98E6-FF0D4DC87814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B1366A-663E-42B2-98E6-FF0D4DC87814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B1366A-663E-42B2-98E6-FF0D4DC87814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4C9B5FC2-A254-4BFA-BDBD-7FD09C041233} = {593A3022-B91C-45DF-91C8-5F60A52F9835}
 		{85DE1C81-F257-4A36-9821-E135EDDD1DA6} = {593A3022-B91C-45DF-91C8-5F60A52F9835}
+		{97B1366A-663E-42B2-98E6-FF0D4DC87814} = {4BCA3777-AA07-4240-A556-19799DECCE4E}
 	EndGlobalSection
 EndGlobal

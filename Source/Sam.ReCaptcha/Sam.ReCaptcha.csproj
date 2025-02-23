@@ -12,6 +12,8 @@
 		<Description>This CAPTCHA supports various techniques, including text-based and mathematical, which help prevent automated attacks and enhance application security.</Description>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageIcon>PackageIcon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>security,recaptcha,captcha,security-tools</PackageTags>
 
 	</PropertyGroup>
 
@@ -39,6 +41,10 @@
 	    <PackagePath>\</PackagePath>
 	  </None>
 	  <None Include="..\..\PackageIcon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\README.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
